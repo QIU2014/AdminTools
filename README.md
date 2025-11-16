@@ -105,6 +105,18 @@ mvn clean package
 
 ### Players can steal the Arrow from the GUI on page 2
 
-## 📄 Reporting a bug
+## 📝 Reporting a bug
 
 If you encounter a bug please report it <a href="https://github.com/QIU2014/AdminTools/issues">here</a>
+
+---
+
+## 📄 License
+
+This project is licensed under the **BSD 3-Clause License**.
+
+You are free to use, modify, and redistribute this plugin — **as long as you keep proper credit** to the original author:
+
+**Copyright (c) 2025, QIU2014**
+
+See the full license text in the `LICENSE` file included in this repository.
