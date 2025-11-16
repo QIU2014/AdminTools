@@ -1,0 +1,14 @@
+name: AdminTools
+version: '${project.version}'
+main: org.eric.AdminTools
+api-version: '1.21'
+commands:
+  /admin:
+    description: "Admin util command"
+    usage: "§2Usage: //admin help"
+    permission: admin.use
+    permission-message: "§4You don't have permission to use this command!"
+
+permissions:
+  admin.use:
+    default: op
