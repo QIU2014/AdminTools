@@ -1,5 +1,5 @@
 # AdminTools  
-A powerful Bukkit/Spigot/Paper admin utility plugin featuring a multi-page inventory editor, vanish mode, flight toggles, GUI player inspection, and more.
+A powerful Bukkit/Spigot/Paper admin utility plugin featuring a multi-page inventory editor, vanish mode, flight toggles, GUI player inspection, and maybe more.
 
 Designed for Minecraft 1.20+.
 
@@ -11,23 +11,23 @@ Designed for Minecraft 1.20+.
 A fully interactive, editable GUI that allows administrators to inspect and modify a player’s:
 
 - Main inventory (slots 0–35)
-- Armor (helmet, chestplate, leggings, boots)
-- Offhand item
-- Ender chest contents
+- Armor (helmet, chestplate, leggings, boots) (coming soon)
+- Offhand item (coming soon)
+- Ender chest contents (coming soon)
 
 With protection against:
 
 - Shift-click exploits  
 - Hotbar (1–9) swaps  
 - Dragging items out of GUI  
-- Stealing the navigation arrows  
+- Stealing the navigation arrows (doesn't work)
 - Self-editing item loss  
 
 Inventory edits sync **live** to the target player, even when editing yourself.
 
 ---
 
-### ✔ Vanish Mode  
+### ✖ Vanish Mode (not done yet)
 `//admin vanish`  
 - Hide from all players  
 - No particle emissions  
@@ -36,7 +36,7 @@ Inventory edits sync **live** to the target player, even when editing yourself.
 
 ---
 
-### ✔ Flight Toggle  
+### ✔ Flight Toggle (not done yet, ~~don't even know why i need this~~)
 `//admin fly`  
 - Enables/disables flying mode  
 - Works in survival mode  
@@ -45,7 +45,6 @@ Inventory edits sync **live** to the target player, even when editing yourself.
 
 ### ✔ GUI Landing Window (Optional)  
 If the JAR is run outside a Minecraft server, a Swing GUI appears explaining how to install and use the plugin.  
-(Implemented via `GUILanding.java`.)
 
 ---
 
@@ -56,8 +55,6 @@ AdminTools includes a professional multi-page GUI system:
 | Page | Description |
 |------|-------------|
 | **Page 1** | Main Inventory (36 slots) |
-| **Page 2** | Armor + Offhand |
-| **Page 3** | Ender Chest |
 
 With **Next Page** and **Previous Page** buttons at slot **48** and **50**.
 
